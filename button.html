@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Button with Animation</title>
+    <style>
+        /* Container styles to center the button */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* This makes the container fill the entire viewport height */
+        }
+
+        /* Button Styles */
+        .button {
+            padding: 10px 20px;
+            background-color: #db5ab4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Hover Animation */
+        .button:hover {
+            background-color: #2da774;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button">Examples</button>
+    </div>
+</body>
+</html>
